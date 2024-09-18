@@ -20,7 +20,8 @@ public class ExclusionMutua {
 
             // simulamos el procesamiento
             Thread.sleep(2000);
-
+            
+            System.out.println("valor de recurso compartido: " + recursoCompartido);
         } catch (InterruptedException e) {
             e.printStackTrace();
         } finally {
